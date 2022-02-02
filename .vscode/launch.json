@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-StoreV1Application<store-v1>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "io.github.pabloin.storev1.StoreV1Application",
+            "projectName": "store-v1",
+            "args": ""
+        }
+    ]
+}
