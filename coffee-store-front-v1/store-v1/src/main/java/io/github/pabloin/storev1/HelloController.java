@@ -16,7 +16,7 @@ public class HelloController {
 		return "hello";
 	}
 
-    @GetMapping("/login")
+    @GetMapping("/loginmvc")
 	public String login( Model model) {
 
 		return "login";
