@@ -23,7 +23,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 				.anyRequest().authenticated()                       // Privado: El resto - incluso "/home" es private
 				.and()
 			.formLogin()
-				.loginPage("/login").permitAll()                    // Login & logout - son publicos
+				.loginPage("/login").permitAll()                    // Login & logout - son publicos.
 				.and()
 			.logout()
 				.permitAll();
