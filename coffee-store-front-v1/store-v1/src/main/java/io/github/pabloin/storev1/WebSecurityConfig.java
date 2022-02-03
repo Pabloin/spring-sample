@@ -18,9 +18,9 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 	protected void configure(HttpSecurity http) throws Exception {
 		http
 			.authorizeRequests()
-				.antMatchers("/*.html").permitAll()                 // Publico Estático
-				.antMatchers("/", "/home", "/hello").permitAll()    // Publico Home
-				.anyRequest().authenticated()                       // Privado: El resto
+				.antMatchers("/*.html").permitAll()                 // Publico Estático - *.html y "/hello" es public
+				.antMatchers("/", "/hello").permitAll()             // Publico Home
+				.anyRequest().authenticated()                       // Privado: El resto - incluso "/home" es private
 				.and()
 			.formLogin()
 				.loginPage("/login").permitAll()                    // Login & logout - son publicos
