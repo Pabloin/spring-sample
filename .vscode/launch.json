@@ -9,6 +9,26 @@
             "mainClass": "io.github.pabloin.storev1.StoreV1Application",
             "projectName": "store-v1",
             "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-SpringBootSwagger3ExampleApplication<spring-boot-swagger3-example>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "io.github.pabloin.SpringBootSwagger3ExampleApplication",
+            "projectName": "spring-boot-swagger3-example",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-SpringBootSwagger3ExampleApplication<coffee-store-back-swagger>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "io.github.pabloin.SpringBootSwagger3ExampleApplication",
+            "projectName": "coffee-store-back-swagger",
+            "args": ""
         }
     ]
 }

@@ -26,4 +26,5 @@ Spring Sample With Front, Back &amp; Data
 
     --Z> Add Spring Security
 
-    
+        
+    curl http://localhost:8080/v3/api-docs/
