@@ -1,0 +1,13 @@
+io/github/pabloin/model/Message.class
+io/github/pabloin/SpringBootSwagger3ExampleApplication.class
+io/github/pabloin/model/Employee.class
+io/github/pabloin/controller/MesssageApi.class
+io/github/pabloin/controller/Swagger3RestController.class
+io/github/pabloin/controller/MesssageDosController.class
+io/github/pabloin/controller/MesssageController.class
+io/github/pabloin/controller/MesssageApiDos.class
+io/github/pabloin/model/User.class
+io/github/pabloin/controller/EmployeeController.class
+io/github/pabloin/model/Book.class
+io/github/pabloin/controller/BookController.class
+io/github/pabloin/controller/UserController.class
